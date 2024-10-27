@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/session_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0F0F0"
+            android:padding="8dp"
+            android:text="Iniciando sessão com Gaia..."
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua mensagem" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+
+    <Button
+        android:id="@+id/end_session_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encerrar Sessão" />
+
+</LinearLayout>
